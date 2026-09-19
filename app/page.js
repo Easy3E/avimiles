@@ -1,0 +1,1 @@
+export default function Page(){return <main style={{fontFamily:"sans-serif",maxWidth:700,margin:"80px auto",padding:24}}><h1>AviMiles Link Bridge ✈️</h1><p>Online and ready for Roblox account verification.</p></main>}

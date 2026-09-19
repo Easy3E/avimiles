@@ -1,0 +1,1 @@
+import { Redis } from "@upstash/redis"; export const runtime="nodejs"; export const dynamic="force-dynamic"; export function redis(){return Redis.fromEnv();} export function botOK(req){return !!process.env.LINK_BRIDGE_SECRET&&(req.headers.get("authorization")||"")===`Bearer ${process.env.LINK_BRIDGE_SECRET}`;} export function cleanCode(v){return String(v||"").replace(/\D/g,"");}

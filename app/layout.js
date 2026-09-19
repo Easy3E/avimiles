@@ -1,0 +1,1 @@
+export const metadata={title:"AviMiles Link Bridge"}; export default function RootLayout({children}){return <html><body>{children}</body></html>}
